@@ -7,7 +7,7 @@
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $hoTen = htmlspecialchars($_POST['hoTen']); // Lấy giá trị từ form và lọc dữ liệu
+    $hoTen = htmlspecialchars($_POST['hoTen']); 
     echo "<h3>Chào bạn, " . $hoTen . "!</h3>";
 }
 ?>
